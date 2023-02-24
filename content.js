@@ -36,7 +36,7 @@ async function connect() {
       } else {
         console.log('No connect button found');
       }
-    }, randomNumber(3000,6000));
+    }, randomNumber(5000,10000));
 
     // Add the timeout ID to the array
     timeouts.push(timeoutId);
